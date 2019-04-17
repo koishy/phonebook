@@ -1,0 +1,129 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  font-family: sans-serif;
+}
+
+#wrapper
+{
+  margin: 30px auto;
+  max-width: 70%;
+  border: 1px solid #ccc;
+}
+
+header
+{
+  padding: 30px;
+  background: rgb(12, 97, 122);
+  color: #fff;
+}
+
+nav
+{
+  display: flex;
+  background: #ccc;
+}
+
+nav ul
+{
+  list-style: none;
+  display: flex;
+}
+nav ul li
+{
+  padding: 10px;
+}
+
+main
+{
+}
+main h1
+{
+  padding: 10px;
+}
+main p
+{
+  padding: 30px 10px;
+}
+
+.numbers ul li
+{
+  padding: 10px;
+  list-style: none;
+  border-top: 1px solid #ccc;
+}
+
+.btn
+{
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid rgb(12, 97, 122);
+}
+
+.add
+{
+  background: rgb(12, 97, 122);
+}
+
+blockquote
+{
+  border-left: 2px solid #000;
+  padding: 20px;
+}
+
+.numbers ul li:nth-child(odd)
+{
+  background: #ccc;
+}
+
+hr
+{
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+form
+{
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea
+{
+  padding: 10px;
+  margin: 10px;
+}
+form label
+{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+form label .title
+{
+  min-width: 150px;
+  max-width: 150px;
+
+}
+
+form label textarea
+{
+  flex: 1;
+}
+
+
+form label input
+{
+  flex: 1;
+}
+
+.errors
+{
+  color: red;
+  list-style: none;
+  padding: 10px;
+}
